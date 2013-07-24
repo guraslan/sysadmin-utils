@@ -1,0 +1,4 @@
+sysadmin-utils
+==============
+
+querydump.sh --> dump "mysql show full processlist" into a file if threads > 50 
