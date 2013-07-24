@@ -1,4 +1,11 @@
 sysadmin-utils
 ==============
 
+logstat.py --> tails apache access log file and counts various http codes
+		report to console and memcache
+
+logstat_reportback.py --> Gets http codes counts from memcache (usable for zabbix)
+
+userparameter_httpcode.conf --> zabbix config file
+
 querydump.sh --> dump "mysql show full processlist" into a file if threads > 50 
