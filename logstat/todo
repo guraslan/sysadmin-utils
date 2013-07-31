@@ -1,0 +1,6 @@
+/data/logs/access-2013-07-31-11.log
+Traceback (most recent call last):
+  File "logstat.py", line 98, in <module>
+    logfile = open(fn)
+IOError: [Errno 2] No such file or directory: '/data/logs/access-2013-07-31-11.log'
+
